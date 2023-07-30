@@ -1,0 +1,28 @@
+.form-busca form{
+  position: relative;
+}
+
+.form-busca i{
+  position: absolute;
+  font-size: 16px;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.form-busca input{
+  width: 220px;
+  height: 40px;
+  background-color: #008bb4;
+  border: none;
+  border-radius: 10px;
+  padding: 0 10px 0 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-busca input::placeholder{
+  color: #fff;
+}

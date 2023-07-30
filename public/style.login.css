@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  place-content: center;
+}
+
+.box-login{
+  background-color: #0AACDC;
+  height: 400px;
+  min-width: 340px;
+  padding: 0 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo h2 a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+.logo h2 span{
+  font-weight: bold;
+}
+
+.box-login form{
+  display: flex;
+  flex-direction: column;
+}
+
+.box-login form input[type=text],
+.box-login form input[type=password]{
+  margin: 10px 0;
+  height: 32px;
+  padding-left: 8px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.box-login form input[type=text]:focus,
+.box-login form input[type=password]:focus{
+  outline: 2px solid #ccc;
+}
+
+.box-login form input[type=text]::placeholder,
+.box-login form input[type=password]::placeholder{
+  font-weight: normal;
+}
+
+.box-login form input[type=submit]{
+  height: 32px;
+  margin: 10px 0;
+  color: #0AACDC;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  border: 3px solid #EBEBEB;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.box-login form input[type=submit]:hover{
+  background-color: #0AACDC;
+  color: #EBEBEB;
+}

@@ -1,0 +1,28 @@
+.erro404{
+  height: calc(100vh - 86px - 70px);
+}
+
+.erro404 .center{
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.erro404 .center h2{
+  font-size: 40px;
+}
+
+.erro404 .center p{
+  margin-top: 20px;
+}
+
+.erro404 .center p a{
+  text-decoration: none;
+  color: #0AACDC;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.erro404 .center p a:hover{
+  color: #5edaff;
+}
